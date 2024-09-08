@@ -36,6 +36,7 @@ function App() {
               {todo.content}
             </li>)}
           </ul>
+          <button onClick={signOut}>Sign out</button>
           <div>
             🥳 App successfully hosted. Try creating a new todo.
             <br />
